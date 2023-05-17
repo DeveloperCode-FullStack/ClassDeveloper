@@ -1,9 +1,5 @@
 https://github.com/DeveloperCode-FullStack/ClassDeveloper.git
 
-https://platzi.com/home
-
-correo: ariel5253@misena.edu.co
-pwd: Formacion2021
 
 Actividad: 
 
