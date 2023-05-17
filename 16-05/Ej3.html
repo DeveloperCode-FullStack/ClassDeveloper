@@ -1,16 +1,28 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-    <title>Ejemplo 1</title>    
+    <title>Ejemplo 1</title>
 </head>
+
 <body></body>
+
 </html>
 
 <script>
     //here code.    
-    //
+    //El cliente resaliza la compra de un producto, él desea saber cuanto debe cancelar, 
+    //si la tienda le realiza un descuento del 10%
 
     //Declarar variables. 
-	
-    
+    var valorCompra =0; 
+    var valorFinal =0;
+
+    valorCompra = parseFloat(prompt("Digite el valor de la compra:"));
+    //valorFinal= valorCompra-(valorCompra*10)/100;
+    //valorFinal=valorCompra*0.9; 
+    valorFinal=valorCompra-(valorCompra*0.1)
+    alert("El valor final es "+valorFinal);
+
+
 </script>

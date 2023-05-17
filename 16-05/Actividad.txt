@@ -1,0 +1,16 @@
+https://github.com/DeveloperCode-FullStack/ClassDeveloper.git
+
+https://platzi.com/home
+
+correo: ariel5253@misena.edu.co
+pwd: Formacion2021
+
+Actividad: 
+
+1. Leer un real hallar el cuadrado posteriormente imprimirlo. 
+2. Leer un real hallar el cubo posteriormente imprimirlo. 
+3. Leer un real hallar:
+	-	El doble.
+	-	El  cuadrado,
+	-	La suma del doble y el cuadrado y  posteriormente imprimirlo.
+4. Leer un real y hallar la raíz cuadrada y  posteriormente imprimirlo.
