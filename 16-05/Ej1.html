@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Ejemplo 1</title>    
+</head>
+<body></body>
+</html>
+
+<script>
+    //here code.    
+    //Calcular dinero a  regresar.
+
+    //Declarar variables. 
+    var plataCliente= 0;
+    var valorCompra = 0;
+    var saldoCliente = 0;
+
+    valorCompra=parseFloat(prompt("Digite el valor de la compra:"));
+    plataCliente=parseFloat(prompt("Digite el valor recibido: "));
+
+    if(valorCompra>plataCliente){
+        alert("Saldo insuficiente!.");
+    }else{
+        saldoCliente=plataCliente-valorCompra;
+        alert("Se regresa "+saldoCliente);
+    }
+</script>

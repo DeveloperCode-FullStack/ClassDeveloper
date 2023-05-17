@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Ejemplo 1</title>    
+</head>
+<body></body>
+</html>
+
+<script>
+    //here code.    
+    //Validar si el aprendiz aprobó o desaprobó la evidencia. Se sabe que aprueba con 70 0 más.
+
+    //Declarar variables. 
+	var nombreAprendiz="";
+	var notaEvidencia=0;
+	
+	nombreAprendiz = prompt("Digite el nombre del Aprendiz: ");
+	notaEvidencia = parseFloat(prompt("Digite de 1-100 la nota de la evidencia: "));
+	
+	/*if(notaEvidencia>=0 && notaEvidencia<=100){
+		if(notaEvidencia<70){
+			alert(nombreAprendiz+" desaprobó.");
+		}else{
+			alert(nombreAprendiz+" aprobó.");
+		}
+	}else{
+		alert("Instructor, la nota ingresada no es válida.");
+	}*/
+	
+	/*if(!(notaEvidencia < 0 || notaEvidencia > 100)){
+		if(notaEvidencia<70){
+			alert(nombreAprendiz+" desaprobó.");
+		}else{
+			alert(nombreAprendiz+" aprobó.");
+		}
+	}else{
+		alert("Instructor, la nota ingresada no es válida.");
+	}*/
+	
+	if(notaEvidencia < 0 || notaEvidencia > 100){
+		alert("Instructor, la nota ingresada no es válida.");
+	}else{
+		if(notaEvidencia<70){
+				alert(nombreAprendiz+" desaprobó.");
+		}else{
+			alert(nombreAprendiz+" aprobó.");
+		}
+		
+	}
+    
+    
+</script>

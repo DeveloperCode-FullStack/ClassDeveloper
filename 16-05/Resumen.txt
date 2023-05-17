@@ -1,0 +1,50 @@
+Lógica:
+
+$2.200
+
+1. 250
+2. 600
+3. 3200
+
+Operadores 
+	Apoyo
+		[]
+		{}
+		()
+	Lógicos
+		and or not
+		
+		T AND T = T
+		T AND F = F
+		F AND T = F
+		F AND F = F
+		
+		T OR T = T
+		T OR F = T
+		F OR T = T
+		F OR F = F
+		
+		NOT T = F
+		NOT F = T
+	
+	Aritméticos		
+		^ mod
+		* /
+		+ -
+	Relacionales
+		> => >
+		< => <
+		>= => >=
+		<= => <=
+		<> => !=
+		=  => ==
+================================================================
+secuenciales
+condiciones if(){}
+ciclos
+
+camelCase
+PascalCase
+snake_case
+unders_core
+middle-dash
